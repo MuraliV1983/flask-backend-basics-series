@@ -54,7 +54,13 @@ Sample request body:
 
 🙋‍♂️ Author
 V MuraliDharan
-GitHub: https://github.com/MuraliV1983/flask-backend-basics-series
+
+📂 Full Repository:
+🔗 https://github.com/MuraliV1983/flask-backend-basics-series
+
+📁 Direct Link to Day 1 folder:
+https://github.com/MuraliV1983/flask-backend-basics-series/tree/main/01_rest_api
+
 LinkedIn: https://www.linkedin.com/in/dharanv/
 
 🤝 With Support From
