@@ -81,7 +81,10 @@ def login():
 @app.route('/protected', methods=['GET'])
 @token_required
 def protected_route(current_user):
-    return jsonify({"message":f"Access Granted!. Hello user{current_user}"})
+    try:
+        return jsonify({"message":f"Access Granted!. Hello user{current_user}"}), 200
+    except Exception as error:
+        return jsonify({"error": str(error)}), 500
 
 
 if __name__ == '__main__':
